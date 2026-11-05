@@ -1,27 +1,29 @@
 # Google Analytics 4
 
-Official PeltyCMS Google Analytics 4 addon
+Connect PeltyCMS to Google Analytics
 
-Official addon for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
+Official integration for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
 
 ## Why this addon
 
-PeltyCMS operators extending the panel with official WASM addons.
+Operators who want analytics and marketing tools wired to real Pelty events.
 
 ## Features
 
-- Official PeltyCMS addon for **Google Analytics 4**
+- Send Pelty commerce events to **Google Analytics**
+- No theme edits — WASM listens to order / invoice / signup events
+- Measurement id + API secret stored in Pelty settings
 
 ## How it works
 
 1. Install **Google Analytics 4** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/integration-google-analytics) inside Pelty Admin → Addons.
-2. Configure Google Analytics 4 in Pelty Admin.
-3. Customers hit checkout / login / order flow as usual — Google Analytics 4 runs in the background.
+2. Open Pelty Admin → Addons → Google Analytics 4, paste your Google Analytics credentials, and save.
+3. Customers hit checkout / login / order flow as usual — Google Analytics runs in the background.
 
 ## Requirements
 
 - PeltyCMS with WASM addons enabled
-- Working Google Analytics 4 credentials
+- Working Google Analytics credentials
 - Outbound HTTPS from your panel
 
 ## Get it
